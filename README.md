@@ -41,3 +41,15 @@ Get-Module -Name Az.Compute
 - The tool can only detect vulnerable VMs that the user running the script has access to.
 - The tool can take quite a long time to run.  You may receive errors if you attempt to run multiple instances of the script or if you try to cancel it and then run it again in a short period of time.
 - Virtual machines can only be updated if they are powered on.
+
+
+# Sample Output
+```
+ResourceGroup:  company-app-environment-rg
+		 company-app-environment-vm1 : VM has patched OMI version  OMI-1.6.8-1
+         company-app-environment-vm2 : VM has patched OMI version  OMI-1.6.8-1
+ResourceGroup:  company-app-environment-rg
+		 company-app-environment-vm : VM has vulnerable OMI version  OMI-1.6.4-0
+ResourceGroup:  company-app-environment-rg
+		 company-app-vm : VM has vulnerable OMI version  OMI-1.6.2-0
+```
