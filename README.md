@@ -40,3 +40,4 @@ Get-Module -Name Az.Compute
 - You can run the script back to back more than once for validations.
 - The tool can only detect vulnerable VMs that the user running the script has access to.
 - The tool can take quite a long time to run.  You may receive errors if you attempt to run multiple instances of the script or if you try to cancel it and then run it again in a short period of time.
+- Virtual machines can only be updated if they are powered on.
