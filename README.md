@@ -45,11 +45,11 @@ Get-Module -Name Az.Compute
 
 # Sample Output
 ```
-ResourceGroup:  company-app-environment-rg
+ResourceGroup:  company-app-environment-rg1
 		 company-app-environment-vm1 : VM has patched OMI version  OMI-1.6.8-1
          company-app-environment-vm2 : VM has patched OMI version  OMI-1.6.8-1
-ResourceGroup:  company-app-environment-rg
-		 company-app-environment-vm : VM has vulnerable OMI version  OMI-1.6.4-0
-ResourceGroup:  company-app-environment-rg
-		 company-app-vm : VM has vulnerable OMI version  OMI-1.6.2-0
+ResourceGroup:  company-app-environment-rg2
+		 company-app-environment-vm1 : VM has vulnerable OMI version  OMI-1.6.4-0
+ResourceGroup:  company-app-environment-rg3
+		 company-app-vm1 : VM has vulnerable OMI version  OMI-1.6.2-0
 ```
