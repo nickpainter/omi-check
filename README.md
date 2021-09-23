@@ -8,6 +8,8 @@ https://arstechnica.com/information-technology/2021/09/security-researchers-at-w
 
 https://www.wiz.io/blog/secret-agent-exposes-azure-customers-to-unauthorized-code-execution
 
+The purpose of this repository is to provide only the tools to address vulnerable OMI installations and improve upon the documentation from the https://github.com/microsoft/OMS-Agent-for-Linux repository.
+
 # Using the Script
 
 1. Review the script and update the paths accordingly.  For example, if the project was cloned into `C:\projects` the paths contained within the script would be.
